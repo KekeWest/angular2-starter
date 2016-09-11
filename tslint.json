@@ -14,7 +14,7 @@
         "output-property-directive": true,
 
         "class-name": true,
-        "comment-format": [true, "check-lowercase", "check-space"],
+        "comment-format": [true, "check-space"],
         "curly": false,
         "eofline": true,
         "forin": true,
@@ -45,7 +45,6 @@
         "no-shadowed-variable": true,
         "no-string-literal": false,
         "no-switch-case-fall-through": true,
-        "no-trailing-comma": true,
         "no-trailing-whitespace": false,
         "no-unused-expression": true,
         "no-unused-variable": false,
@@ -58,10 +57,8 @@
             "check-else",
             "check-whitespace"
         ],
-        "quotemark": [true, "double"],
         "radix": true,
         "semicolon": true,
-        "sort-object-literal-keys": false,
         "triple-equals": [true, "allow-null-check"],
         "variable-name": false,
         "whitespace": [true,
