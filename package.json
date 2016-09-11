@@ -5,8 +5,7 @@
   "scripts": {
     "start": "webpack-dev-server -d",
     "test": "karma start",
-    "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
-    "typings": "typings"
+    "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail"
   },
   "author": "KekeWest",
   "license": "ISC",
